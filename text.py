@@ -22,7 +22,7 @@ for item in bpy.data.objects:
     bpy.data.objects.remove(item)
 
 ## load fonts
-bpy.data.fonts.load("/System/Library/Fonts/Supplemental/Songti.ttc")
+# bpy.data.fonts.load("/System/Library/Fonts/Supplemental/Songti.ttc")
 
 scene = bpy.data.scenes["Scene"]
 
@@ -32,7 +32,7 @@ name: str = "text"
 align_x: str = 'CENTER'
 align_y: str = 'CENTER'
 size: float = 5.0
-font_name: str = "STSongti-SC-Black"
+# font_name: str = "STSongti-SC-Black"
 extrude: float = 0.1
 space_line: float = 1.0
 location: Tuple[float, float, float] = (0.0, 0.0, 0.0)
