@@ -1,5 +1,0 @@
-#+TITLE: 三维
-
-Render chinese text in CLI with Blender Python API 
-
-Based on https://github.com/yuki-koyama/blender-cli-rendering
